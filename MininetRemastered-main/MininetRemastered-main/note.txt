@@ -1,0 +1,28 @@
+frontend 
+ - State users.
+ - Main page -> the page will request the toppologies depending on user id.
+            -> the page will send id and get toppologies.
+
+backend
+ - if the user id is in the topo members will be in the current and if not it will be in the global (limit 7) if he want to make it public.
+ - when the user create a topology it will add the user id in members.
+
+
+
+ Devices=>
+      pc,laptop -> 
+        {
+          ip, hostname, gateway, subnetmask
+        }
+      switch -> 
+        {
+          ip, hostname, port => access,trunc
+        }
+      router -> 
+        {
+          ip, hostname
+        }
+      controller -> 
+        {
+         Remorte controller => ip,hostname
+        }
